@@ -1,31 +1,33 @@
+
 <!DOCTYPE html>
 <html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NUSAVERA | Perjalanan Menelusuri Sejarah Kerajaan Nusantara</title>
+
     <link rel="stylesheet" href="style.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
-<script src="script.js"></script>
+
 <body>
 
     <!-- NAVBAR -->
     <header class="navbar">
-        <a href="#" class="logo" onclick="showHome()">
+        <a href="#" class="logo" onclick="showHome(); return false;">
             NUSA<span>VERA</span>
         </a>
 
         <nav>
-            <a href="#" onclick="showHome()">Beranda</a>
-            <a href="#sejarah" onclick="showHome()">Sejarah</a>
-            <a href="#tentang">Tentang</a>
+            <a href="#" onclick="showHome(); return false;">Beranda</a>
+            <a href="#sejarah" onclick="showHome(); return false;">Sejarah</a>
+            <a href="#tentang" onclick="showHome(); return false;">Tentang</a>
         </nav>
 
-        <button class="menu-btn" onclick="toggleMenu()">☰</button>
+        <button type="button" class="menu-btn" onclick="toggleMenu()">☰</button>
     </header>
 
     <!-- HALAMAN UTAMA -->
@@ -35,7 +37,8 @@
             <div class="hero-content">
                 <p class="subtitle">EXPLORE THE LEGACY OF NUSANTARA</p>
 
-                <h1>Menelusuri Jejak<br>
+                <h1>
+                    Menelusuri Jejak<br>
                     <span>Kerajaan Nusantara</span>
                 </h1>
 
@@ -69,39 +72,35 @@
                 masyarakat Indonesia.
             </p>
         </section>
-        
-<!-- SEARCH KERAJAAN DI BERANDA -->
-<section class="home-search-section">
 
-    <div class="section-heading">
-        <p class="section-label">TEMUKAN SEJARAH</p>
-        <h2>Jelajahi Kerajaan</h2>
-        <p>
-            Cari nama kerajaan untuk menemukan sejarah
-            dan peninggalannya.
-        </p>
-    </div>
+        <!-- SEARCH KERAJAAN DI BERANDA -->
+        <section class="home-search-section">
 
-    <div class="search-container">
+            <div class="section-heading">
+                <p class="section-label">TEMUKAN SEJARAH</p>
+                <h2>Jelajahi Kerajaan</h2>
+                <p>
+                    Cari nama kerajaan untuk menemukan sejarah
+                    dan peninggalannya.
+                </p>
+            </div>
 
-        <input
-            type="text"
-            id="searchKingdom"
-            placeholder="Cari nama kerajaan..."
-            oninput="searchKingdoms()"
-        >
+            <div class="search-container">
+                <input
+                    type="text"
+                    id="searchKingdom"
+                    placeholder="Cari nama kerajaan..."
+                    oninput="searchKingdoms()"
+                >
 
-        <button type="button" onclick="searchKingdoms()">
-            🔍
-        </button>
+                <button type="button" onclick="searchKingdoms()">
+                    🔍
+                </button>
+            </div>
 
-    </div>
+            <div class="kingdom-grid" id="homeSearchResults"></div>
 
-    <!-- HASIL PENCARIAN -->
-    <div class="kingdom-grid" id="homeSearchResults"></div>
-
-</section>
-
+        </section>
 
         <!-- PILIHAN KERAJAAN -->
         <section class="kingdom-section" id="sejarah">
@@ -121,7 +120,7 @@
                         <span>KATEGORI 01</span>
                         <h3>Kerajaan Hindu-Buddha</h3>
                         <p>Jelajahi sejarah kerajaan Hindu dan Buddha di Nusantara.</p>
-                        <button>Jelajahi Sekarang →</button>
+                        <button type="button">Jelajahi Sekarang →</button>
                     </div>
                 </div>
 
@@ -132,7 +131,7 @@
                         <span>KATEGORI 02</span>
                         <h3>Kerajaan Islam</h3>
                         <p>Kenali perkembangan kerajaan Islam di Indonesia.</p>
-                        <button>Jelajahi Sekarang →</button>
+                        <button type="button">Jelajahi Sekarang →</button>
                     </div>
                 </div>
 
@@ -152,54 +151,23 @@
     <main id="kingdomPage" class="hidden">
 
         <section class="page-banner">
-            <button class="back-button" onclick="showHome()">← Kembali ke Beranda</button>
+            <button type="button" class="back-button" onclick="showHome()">
+                ← Kembali ke Beranda
+            </button>
 
             <p class="section-label" id="kingdomLabel">SEJARAH NUSANTARA</p>
             <h1 id="kingdomTitle">Daftar Kerajaan</h1>
             <p id="kingdomDescription"></p>
         </section>
 
-        
+        <section class="kingdom-list-section">
 
-<section class="kingdom-list-section">
+            <div class="section-heading">
+                <h2>Jelajahi Kerajaan</h2>
+                <p>Pilih kerajaan untuk membaca sejarah dan peninggalannya.</p>
+            </div>
 
-    <div class="section-heading">
-
-        <h2>Jelajahi Kerajaan</h2>
-
-        <p>Pilih kerajaan untuk membaca sejarah dan peninggalannya.</p>
-
-    </div>
-
-    <div class="kingdom-grid" id="kingdomGrid"></div>
-
-</section>
-
-
-    <!-- DAFTAR KERAJAAN -->
-
-         <div class="kingdom-grid" id="homeSearchResults"></div>
-
-</section>
-
-
-
-<!-- SEARCH KERAJAAN -->
-<div class="search-container">
-
-    <input
-        type="text"
-        id="searchKingdom"
-        placeholder="Cari nama kerajaan..."
-        oninput="searchKingdoms()"
-    >
-
-    <button type="button" onclick="searchKingdoms()">
-        🔍
-    </button>
-
-</div>
-
+            <div class="kingdom-grid" id="kingdomGrid"></div>
 
         </section>
 
@@ -216,7 +184,7 @@
 
         <section class="detail-section">
 
-            <button class="back-button" onclick="backToKingdoms()">
+            <button type="button" class="back-button" onclick="backToKingdoms()">
                 ← Kembali ke Daftar Kerajaan
             </button>
 
@@ -231,6 +199,7 @@
 
     </main>
 
+    <!-- JAVASCRIPT DIPANGGIL SEKALI DI BAGIAN BAWAH -->
     <script src="script.js"></script>
 
 </body>
