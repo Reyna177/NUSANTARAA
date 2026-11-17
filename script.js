@@ -11,9 +11,9 @@ const kingdoms = {
             period: "Sekitar abad ke-4 Masehi",
             image: "Sejarah Kerajaan Kutai _ Raja, Sistem Pemerintahan, Peninggalan, Masa Kejayaan dan Runtuhnya Kerajaan Kutai.jpg",
             short: "Salah satu kerajaan Hindu tertua yang diketahui di Indonesia.",
-            history: "Kerajaan Kutai Martadipura adalah kerajaan bercorak Hindu tertua di Nusantara yang berdiri sekitar abad ke-4 Masehi di Muara Kaman, Kalimantan Timur.",
+            history: "Kerajaan Kutai (secara resmi disebut Kerajaan Kutai Martadipura atau Martapura) adalah kerajaan bercorak Hindu tertua di Nusantara yang berdiri sekitar abad ke-4 Masehi (sekitar tahun 400 M) di Muara Kaman, Kalimantan Timur, di sepanjang aliran Sungai Mahakam.",
             king: "Maharaja Mulawarman.",
-            glory: "Kerajaan Kutai berkembang pada masa pemerintahan Raja Mulawarman. Ia dikenal melalui prasasti Yupa.",
+            glory: "Kerajaan Kutai berkembang pada masa pemerintahan Raja Mulawarman. Ia dikenal melalui prasasti Yupa yang mencatat pemberian hadiah kepada kaum Brahmana.",
             heritage: "Prasasti Yupa."
         },
         {
@@ -22,9 +22,9 @@ const kingdoms = {
             period: "Sekitar abad ke-4 hingga ke-7 Masehi",
             image: "Sejarah Kerajaan Tarumanegara _ Silsilah Raja, Peninggalan, Kehidupan, Masa Kejayaan dan Runtuhnya.jpg",
             short: "Kerajaan Hindu yang terkenal dengan Raja Purnawarman.",
-            history: "Tarumanegara merupakan kerajaan bercorak Hindu yang berkembang di wilayah Jawa Barat.",
+            history: "Tarumanegara merupakan kerajaan bercorak Hindu yang berkembang di wilayah Jawa Barat. Kerajaan ini diketahui melalui berbagai prasasti yang menceritakan pemerintahan Raja Purnawarman.",
             king: "Raja Purnawarman.",
-            glory: "Mencapai perkembangan penting pada masa Raja Purnawarman, terutama dalam pembangunan saluran air.",
+            glory: "Mencapai perkembangan penting pada masa Raja Purnawarman, terutama dalam pembangunan saluran air dan pengelolaan wilayah kerajaan.",
             heritage: "Prasasti Ciaruteun, Prasasti Tugu, dan Prasasti Kebon Kopi."
         },
         {
@@ -33,7 +33,7 @@ const kingdoms = {
             period: "Sekitar abad ke-7 hingga abad ke-13",
             image: "Sejarah Kerajaan Sriwijaya dari Kejayaan Hingga Keruntuhannya · Satu Jam.jpg",
             short: "Kerajaan Buddha yang terkenal sebagai pusat perdagangan maritim.",
-            history: "Sriwijaya merupakan kerajaan bercorak Buddha yang berkembang di Sumatra dan menjadi pusat perdagangan penting di Asia Tenggara.",
+            history: "Sriwijaya merupakan kerajaan bercorak Buddha yang berkembang di Sumatra. Letaknya yang strategis menjadikan Sriwijaya sebagai kekuatan maritim dan pusat perdagangan penting di Asia Tenggara.",
             king: "Dapunta Hyang Sri Jayanasa dan Balaputradewa.",
             glory: "Sriwijaya mencapai kejayaan melalui perdagangan laut dan perannya sebagai pusat pembelajaran agama Buddha.",
             heritage: "Prasasti Kedukan Bukit, Prasasti Talang Tuo, dan Prasasti Kota Kapur."
@@ -44,9 +44,9 @@ const kingdoms = {
             period: "Sekitar abad ke-8 hingga ke-11",
             image: "Sejarah Kerajaan Mataram Kuno Singkat Beserta Raja Raja dan Peninggalannya _ Perpustakaan_id.jpg",
             short: "Kerajaan yang meninggalkan warisan candi megah.",
-            history: "Mataram Kuno berkembang di Jawa Tengah dan kemudian sebagian pusat kekuasaannya berpindah ke Jawa Timur.",
+            history: "Mataram Kuno merupakan kerajaan yang berkembang di Jawa Tengah dan kemudian sebagian pusat kekuasaannya berpindah ke Jawa Timur. Kerajaan ini memiliki dinasti Sanjaya yang bercorak Hindu dan Syailendra yang bercorak Buddha.",
             king: "Sanjaya, Rakai Panangkaran, dan Balitung.",
-            glory: "Kerajaan ini dikenal karena perkembangan agama, kebudayaan, dan pembangunan bangunan suci.",
+            glory: "Kerajaan ini dikenal karena perkembangan agama, kebudayaan, dan pembangunan bangunan suci. Candi Borobudur dan Prambanan berasal dari masa perkembangan dinasti-dinasti di lingkungan kerajaan Mataram Kuno.",
             heritage: "Candi Borobudur, Candi Prambanan, dan berbagai prasasti."
         },
         {
@@ -55,9 +55,9 @@ const kingdoms = {
             period: "1042–1222 Masehi",
             image: "Sejarah Kerajaan Kediri _ Silsilah Raja, Peninggalan, Kehidupan, Masa Kejayaan dan Runtuhnya.jpg",
             short: "Kerajaan yang terkenal dengan perkembangan sastra.",
-            history: "Kerajaan Kediri atau Panjalu berkembang di Jawa Timur setelah pembagian Kerajaan Medang.",
+            history: "Kerajaan Kediri atau Panjalu berkembang di Jawa Timur setelah pembagian Kerajaan Medang. Kerajaan ini memiliki perkembangan penting dalam bidang pemerintahan, ekonomi, dan kesusastraan.",
             king: "Jayabaya, Kameswara, dan Kertajaya.",
-            glory: "Kediri mencapai perkembangan penting pada pemerintahan Raja Jayabaya.",
+            glory: "Kediri mencapai masa perkembangan penting pada pemerintahan Raja Jayabaya. Karya sastra seperti Bharatayuddha berkembang pada masa kerajaan ini.",
             heritage: "Prasasti, arca, dan karya sastra dari masa Kediri."
         },
         {
@@ -66,9 +66,9 @@ const kingdoms = {
             period: "1222–1292 Masehi",
             image: "MAKALAH SEJARAH SINGASARI.jpg",
             short: "Kerajaan yang didirikan oleh Ken Arok.",
-            history: "Kerajaan Singasari didirikan oleh Ken Arok pada tahun 1222.",
+            history: "Kerajaan Singasari didirikan oleh Ken Arok pada tahun 1222 setelah mengalahkan Kerajaan Kediri. Kerajaan ini kemudian berkembang menjadi salah satu kekuatan penting di Jawa Timur.",
             king: "Ken Arok, Anusapati, dan Kertanegara.",
-            glory: "Singasari mencapai kejayaan pada masa pemerintahan Raja Kertanegara.",
+            glory: "Singasari mencapai kejayaan pada masa pemerintahan Raja Kertanegara. Ia dikenal melalui upaya perluasan pengaruh kerajaan ke wilayah luar Jawa.",
             heritage: "Candi Singasari, Candi Jago, dan Candi Kidal."
         },
         {
@@ -77,9 +77,9 @@ const kingdoms = {
             period: "1293–sekitar 1527 Masehi",
             image: "10 Incredible Places To Visit In Yogyakarta On Your 2026 Trip.jpg",
             short: "Kerajaan besar yang mencapai kejayaan pada masa Hayam Wuruk.",
-            history: "Majapahit didirikan oleh Raden Wijaya pada tahun 1293 di Jawa Timur.",
+            history: "Majapahit didirikan oleh Raden Wijaya pada tahun 1293 di Jawa Timur. Kerajaan ini berkembang menjadi salah satu kerajaan besar dalam sejarah Nusantara.",
             king: "Raden Wijaya, Hayam Wuruk, dan Wikramawardhana.",
-            glory: "Majapahit mencapai puncak kejayaan pada masa Raja Hayam Wuruk dengan dukungan Mahapatih Gajah Mada.",
+            glory: "Majapahit mencapai puncak kejayaan pada masa Raja Hayam Wuruk dengan dukungan Mahapatih Gajah Mada. Pengaruhnya meluas melalui hubungan politik, perdagangan, dan pelayaran.",
             heritage: "Kitab Negarakertagama, Candi Tikus, Gapura Bajang Ratu, dan berbagai peninggalan di Trowulan."
         }
     ],
@@ -91,9 +91,9 @@ const kingdoms = {
             period: "Sekitar abad ke-13 hingga ke-16",
             image: "download (25).jpg",
             short: "Salah satu kerajaan Islam awal di Nusantara.",
-            history: "Samudra Pasai berkembang di wilayah pesisir utara Sumatra dan menjadi pusat perdagangan serta penyebaran Islam.",
+            history: "Samudra Pasai berkembang di wilayah pesisir utara Sumatra. Kerajaan ini menjadi pusat perdagangan dan penyebaran Islam di kawasan Selat Malaka.",
             king: "Sultan Malik al-Saleh.",
-            glory: "Samudra Pasai berkembang sebagai pusat perdagangan internasional.",
+            glory: "Samudra Pasai berkembang sebagai pusat perdagangan internasional yang menghubungkan pedagang dari berbagai wilayah.",
             heritage: "Kompleks makam Sultan Malik al-Saleh dan mata uang dirham."
         },
         {
@@ -102,9 +102,9 @@ const kingdoms = {
             period: "1496–awal abad ke-20",
             image: "Koeta Radja, Missigit_(Mosque at Kuta Raja_Banda Aceh) ca_ 1910.jpg",
             short: "Kesultanan yang berkembang sebagai pusat perdagangan dan pendidikan Islam.",
-            history: "Kesultanan Aceh Darussalam berkembang di ujung utara Pulau Sumatra.",
+            history: "Kesultanan Aceh Darussalam berkembang di ujung utara Pulau Sumatra. Kerajaan ini memiliki peran penting dalam perdagangan dan penyebaran Islam.",
             king: "Sultan Ali Mughayat Syah dan Sultan Iskandar Muda.",
-            glory: "Aceh mencapai kejayaan pada masa Sultan Iskandar Muda.",
+            glory: "Aceh mencapai kejayaan pada masa Sultan Iskandar Muda dengan perkembangan perdagangan, militer, dan pendidikan Islam.",
             heritage: "Masjid Raya Baiturrahman dan kompleks makam para sultan."
         },
         {
@@ -113,9 +113,9 @@ const kingdoms = {
             period: "Sekitar akhir abad ke-15 hingga pertengahan abad ke-16",
             image: "Masjid Agung Demak.jpg",
             short: "Kerajaan Islam penting dalam perkembangan Islam di Pulau Jawa.",
-            history: "Kerajaan Demak berkembang di pesisir utara Jawa Tengah.",
+            history: "Kerajaan Demak berkembang di pesisir utara Jawa Tengah. Kerajaan ini memiliki peran besar dalam penyebaran Islam dan perdagangan di pesisir Jawa.",
             king: "Raden Patah, Pati Unus, dan Sultan Trenggana.",
-            glory: "Demak mencapai masa perkembangan penting pada pemerintahan Sultan Trenggana.",
+            glory: "Demak mencapai masa perkembangan penting pada pemerintahan Sultan Trenggana dan memiliki hubungan erat dengan dakwah Wali Songo.",
             heritage: "Masjid Agung Demak."
         },
         {
@@ -124,10 +124,10 @@ const kingdoms = {
             period: "Sekitar abad ke-16",
             image: "Petilasan Keraton Kerajaan Pajang, Kartasura - Sukoharjo.jpg",
             short: "Kerajaan Islam di Jawa setelah masa Demak.",
-            history: "Pajang merupakan kerajaan Islam yang berkembang di Jawa Tengah setelah kemunduran Kerajaan Demak.",
+            history: "Pajang merupakan kerajaan Islam yang berkembang di wilayah Jawa Tengah setelah kemunduran Kerajaan Demak.",
             king: "Sultan Hadiwijaya atau Jaka Tingkir.",
-            glory: "Pajang menjadi pusat kekuasaan Islam di pedalaman Jawa.",
-            heritage: "Peninggalan sejarah dan tradisi Kerajaan Pajang."
+            glory: "Pajang menjadi pusat kekuasaan Islam di pedalaman Jawa sebelum berkembangnya Mataram Islam.",
+            heritage: "Peninggalan sejarah dan tradisi yang berkaitan dengan Kerajaan Pajang."
         },
         {
             name: "Mataram Islam",
@@ -135,9 +135,9 @@ const kingdoms = {
             period: "1586–1755 Masehi",
             image: "download (26).jpg",
             short: "Kerajaan Islam yang mencapai kejayaan pada masa Sultan Agung.",
-            history: "Mataram Islam berkembang di wilayah Jawa Tengah dan Yogyakarta.",
+            history: "Mataram Islam berkembang di wilayah Jawa Tengah dan kemudian memiliki pusat kekuasaan di kawasan Yogyakarta. Kerajaan ini menjadi salah satu kekuatan besar di Jawa.",
             king: "Panembahan Senopati dan Sultan Agung.",
-            glory: "Mataram Islam mencapai kejayaan pada masa Sultan Agung.",
+            glory: "Mataram Islam mencapai kejayaan pada masa Sultan Agung melalui perluasan wilayah dan perkembangan kebudayaan Jawa-Islam.",
             heritage: "Kompleks makam Kotagede dan tradisi keraton."
         },
         {
@@ -146,9 +146,9 @@ const kingdoms = {
             period: "Sekitar abad ke-15 hingga ke-17",
             image: "538c9_kerajaan-cirebon.jpg",
             short: "Pusat perkembangan Islam dan budaya di pesisir Jawa Barat.",
-            history: "Kesultanan Cirebon berkembang di pesisir utara Jawa Barat.",
+            history: "Kesultanan Cirebon berkembang di pesisir utara Jawa Barat. Kerajaan ini memiliki peran penting dalam perdagangan dan penyebaran Islam.",
             king: "Pangeran Cakrabuana dan Sunan Gunung Jati.",
-            glory: "Cirebon berkembang sebagai pusat perdagangan dan pertemuan berbagai budaya.",
+            glory: "Cirebon berkembang sebagai pusat perdagangan dan pertemuan berbagai budaya, termasuk budaya Jawa, Sunda, Arab, dan Tionghoa.",
             heritage: "Keraton Kasepuhan, Keraton Kanoman, dan Masjid Agung Sang Cipta Rasa."
         },
         {
@@ -157,9 +157,9 @@ const kingdoms = {
             period: "Abad ke-16 hingga ke-19",
             image: "Masjid di Banten, tahun 1880_.jpg",
             short: "Kerajaan Islam yang terkenal dengan perdagangan lada.",
-            history: "Kesultanan Banten berkembang di wilayah pesisir barat Pulau Jawa.",
+            history: "Kesultanan Banten berkembang di wilayah pesisir barat Pulau Jawa. Letaknya yang strategis menjadikan Banten sebagai pusat perdagangan penting.",
             king: "Sultan Maulana Hasanuddin dan Sultan Ageng Tirtayasa.",
-            glory: "Banten mencapai perkembangan besar melalui perdagangan lada.",
+            glory: "Banten mencapai perkembangan besar melalui perdagangan lada dan hubungan dengan pedagang dari berbagai wilayah.",
             heritage: "Masjid Agung Banten dan reruntuhan Keraton Surosowan."
         },
         {
@@ -168,9 +168,9 @@ const kingdoms = {
             period: "Sekitar abad ke-13 hingga abad ke-20",
             image: "Ternate,_Keraton.jpg",
             short: "Kesultanan yang terkenal dengan perdagangan cengkih.",
-            history: "Kesultanan Ternate berkembang di Maluku Utara dan menjadi pusat perdagangan rempah-rempah.",
+            history: "Kesultanan Ternate berkembang di Maluku Utara dan menjadi salah satu pusat perdagangan rempah-rempah di Nusantara.",
             king: "Sultan Zainal Abidin dan Sultan Baabullah.",
-            glory: "Ternate mencapai kejayaan pada masa Sultan Baabullah.",
+            glory: "Ternate mencapai kejayaan pada masa Sultan Baabullah dan memiliki pengaruh besar dalam perdagangan rempah.",
             heritage: "Kedaton Sultan Ternate dan berbagai peninggalan kesultanan."
         },
         {
@@ -179,9 +179,9 @@ const kingdoms = {
             period: "Sekitar abad ke-15 hingga abad ke-20",
             image: "Kadato_Kie.jpg",
             short: "Kesultanan yang berperan penting dalam perdagangan rempah.",
-            history: "Kesultanan Tidore berkembang di Kepulauan Maluku.",
+            history: "Kesultanan Tidore berkembang di Kepulauan Maluku dan menjadi salah satu kekuatan politik dan perdagangan penting di kawasan tersebut.",
             king: "Sultan Nuku.",
-            glory: "Tidore memiliki pengaruh besar dalam perdagangan rempah.",
+            glory: "Tidore memiliki pengaruh besar dalam perdagangan rempah dan hubungan politik dengan wilayah sekitarnya.",
             heritage: "Kedaton Tidore dan berbagai peninggalan kesultanan."
         },
         {
@@ -190,9 +190,9 @@ const kingdoms = {
             period: "Berkembang sejak abad ke-14; Islam diterima pada awal abad ke-17",
             image: "Balla'_Lompoa_Museum.jpg",
             short: "Kerajaan kembar yang berkembang menjadi kekuatan maritim di Sulawesi Selatan.",
-            history: "Gowa dan Tallo merupakan dua kerajaan yang menjalin hubungan politik erat di Sulawesi Selatan.",
+            history: "Gowa dan Tallo merupakan dua kerajaan yang menjalin hubungan politik erat di Sulawesi Selatan. Keduanya kemudian dikenal sebagai Kerajaan Makassar setelah berkembangnya Islam.",
             king: "Sultan Alauddin dan Sultan Hasanuddin.",
-            glory: "Kerajaan Gowa-Tallo berkembang sebagai pusat perdagangan maritim.",
+            glory: "Kerajaan Gowa-Tallo berkembang sebagai pusat perdagangan maritim dan mencapai pengaruh besar pada masa Sultan Hasanuddin.",
             heritage: "Benteng Somba Opu dan Benteng Rotterdam."
         }
     ]
@@ -238,6 +238,11 @@ function showHome() {
 
 function showKingdoms(category) {
 
+    if (!kingdoms[category]) {
+        console.error("Kategori kerajaan tidak ditemukan:", category);
+        return;
+    }
+
     currentCategory = category;
 
     const grid = document.getElementById("kingdomGrid");
@@ -250,8 +255,6 @@ function showKingdoms(category) {
     detailPage.classList.add("hidden");
 
     const data = kingdoms[category];
-
-    if (!data) return;
 
     if (category === "hindu") {
 
@@ -317,20 +320,18 @@ function showKingdoms(category) {
 function searchKingdoms() {
 
     const searchInput = document.getElementById("searchKingdom");
+    const resultsContainer = document.getElementById("homeSearchResults");
 
-    if (!searchInput) return;
+    if (!searchInput || !resultsContainer) return;
 
     const keyword = searchInput.value.trim().toLowerCase();
-
-    const resultsContainer =
-        document.getElementById("homeSearchResults");
 
     if (!keyword) {
         resultsContainer.innerHTML = "";
         return;
     }
 
-    let allKingdoms = [];
+    const allKingdoms = [];
 
     Object.keys(kingdoms).forEach(category => {
 
@@ -404,12 +405,14 @@ function searchKingdoms() {
 
 function showDetail(index, category = currentCategory) {
 
+    if (!kingdoms[category] || !kingdoms[category][index]) {
+        console.error("Data kerajaan tidak ditemukan:", category, index);
+        return;
+    }
+
     currentCategory = category;
 
-    const kingdom = kingdoms[currentCategory]?.[index];
-
-    if (!kingdom) return;
-
+    const kingdom = kingdoms[category][index];
     const detailContent = document.getElementById("detailContent");
 
     homePage.classList.add("hidden");
@@ -417,7 +420,7 @@ function showDetail(index, category = currentCategory) {
     detailPage.classList.remove("hidden");
 
     const categoryName =
-        currentCategory === "hindu"
+        category === "hindu"
             ? "KERAJAAN HINDU-BUDDHA"
             : "KERAJAAN ISLAM";
 
@@ -446,16 +449,28 @@ function showDetail(index, category = currentCategory) {
         <div class="detail-content">
 
             <h3>Sejarah Berdirinya</h3>
-            <p>${kingdom.history}</p>
+
+            <p>
+                ${kingdom.history}
+            </p>
 
             <h3>Raja-Raja Terkenal</h3>
-            <p>${kingdom.king}</p>
+
+            <p>
+                ${kingdom.king}
+            </p>
 
             <h3>Masa Kejayaan</h3>
-            <p>${kingdom.glory}</p>
+
+            <p>
+                ${kingdom.glory}
+            </p>
 
             <h3>Peninggalan Sejarah</h3>
-            <p>${kingdom.heritage}</p>
+
+            <p>
+                ${kingdom.heritage}
+            </p>
 
         </div>
 
@@ -488,7 +503,9 @@ function toggleMenu() {
 
     const nav = document.querySelector(".navbar nav");
 
-    nav.classList.toggle("active");
+    if (nav) {
+        nav.classList.toggle("active");
+    }
 
 }
 
@@ -501,8 +518,24 @@ document.querySelectorAll(".navbar nav a").forEach(link => {
 
     link.addEventListener("click", () => {
 
-        document.querySelector(".navbar nav").classList.remove("active");
+        const nav = document.querySelector(".navbar nav");
+
+        if (nav) {
+            nav.classList.remove("active");
+        }
 
     });
 
 });
+
+
+/* =========================
+   MEMASTIKAN FUNGSI BISA DIAKSES HTML
+========================= */
+
+window.showHome = showHome;
+window.showKingdoms = showKingdoms;
+window.showDetail = showDetail;
+window.backToKingdoms = backToKingdoms;
+window.searchKingdoms = searchKingdoms;
+window.toggleMenu = toggleMenu;
